@@ -10,9 +10,7 @@ html, body {
 body{
     text-align: center;
 }
-.logo{
-    margin-bottom: 30px;
-}
+
 .gb_a{
     cursor: pointer;
     color:#5f6368;
@@ -63,6 +61,7 @@ body{
     color: #FFF;
     font-size: 16px;
     cursor: pointer;
+    border: none;
 }
 .nav button:hover{
     background: #2b7de9;
@@ -74,7 +73,7 @@ body{
     max-width: 584px;
     border: #dfe1e5 solid 1px;
     border-radius: 24px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -127,7 +126,7 @@ border: 1px solid #dadce0;
 }
 .langue{
     min-height: 100%;
-    margin: -70px;
+    margin: -70px 0 -50px 0;
     padding: 100px;
 }
 .text{
@@ -138,7 +137,7 @@ border: 1px solid #dadce0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 50px;
     padding: 0 30px;
     background-color: #f2f2f2;;
     font-size: 15px;
@@ -148,6 +147,7 @@ border: 1px solid #dadce0;
 }
 p a{
     text-decoration: none;
+    color: blue;
 }
 .header a{
     color: black;
